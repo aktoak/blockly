@@ -271,6 +271,7 @@ export class ToolboxCategory extends ToolboxItem implements
     }
 
     toolboxIcon.style.display = 'inline-block';
+    toolboxIcon.style.color = this.colour_;
     return toolboxIcon;
   }
 
